@@ -1,0 +1,79 @@
+/* Padrão do site */
+
+@font-face{
+    font-family: 'nostra-fonte';
+    src: url(LouisGeorgeCafe.ttf);
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    /* background-color: rgb(87, 10, 10); */
+    background-image:url();
+    color: white;
+    font-family:'nostra-fonte';
+}
+
+/* Header */
+#fixed-header{
+    background: rgb(2, 53, 2);
+    height: 70px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style-type: none;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover{
+    color: red;
+}
+/* Fim do padrão */
+
+/* Main */
+#all-content{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#main-title{
+    font-size: 50px;
+    color: rgb(177, 12, 12);
+}
+
+#main-content{
+    margin-bottom: 50px;
+}
+
+#main-content p{
+   font-size: 20px;
+}
+
+#logo-header{
+    margin-top: 0px;
+}
+
+#nostra-logo{
+    margin-top: 10px;
+    height: 500px;
+}
+
