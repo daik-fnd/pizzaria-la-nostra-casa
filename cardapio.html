@@ -1,12 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio - La Nostra Casa</title>
+    <title>La Nostra Casa</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-    <a href="index.html">Voltar a página inicial.</a>
-    <a href="suporte.html">Fale conosco</a>
+
+<body id="container">
+
+    <header id="fixed-header">
+        <ul id="menu">
+            <li><a href="index.html">Página inicial</a></li>
+            <li><a href="cardapio.html">Nosso cardápio</a></li>
+            <li><a href="lojas.html">O ambiente</a></li>
+            <li><a href="delivery.html">Delivery</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="suporte.html">Nos conte a sua experiência! <br>(Fale conosco)</a></li>
+        </ul>
+    </header>
+
+    <main class="main-content">
+        <aside id="picture-container">
+
+            <div class="picture-div">
+                <img src="../Pizzaria/images/pizza-pic.png" class="cardapio-pics">
+                <p>Temos diversos sabores de pizza</p>
+            </div>
+
+            <div class="picture-div">
+                <img src="../Pizzaria/images/esfiha-pic.png" class="cardapio-pics">
+                <p>Esfihas doces e salgadas</p>
+            </div>
+
+            <div class="picture-div">
+                <img src="../Pizzaria/images/vinho-pic.png" class="cardapio-pics">
+                <p>Refrigerantes & Bebidas</p>
+            </div>
+
+        </aside>
+    </main>
+
+    <article>
+        <div class="cardapio-content">
+
+            <div class="pizza-option">
+                <table border="1">
+                    <tr>
+                        <th>Pizzas tradicionais</th>
+                        <th>Preço (R$)</th>
+                    </tr>
+                    <tr>
+                        <td>Frango c/ catupiry</td>
+                        <td>R$ 79,90</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="pizza-option">
+                <table border="1">
+                    <tr>
+                        <th>Pizzas tradicionais</th>
+                        <th>Preço (R$)</th>
+                    </tr>
+                    <tr>
+                        <td>Frango c/ catupiry</td>
+                        <td>R$ 79,90</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </article>
+
+    <footer id="footer">
+        <div id="footer-container">
+            <ul>
+                <li class="foot1">
+                    <h2>Agradecemos a preferência, volte sempre!</h2>
+                    <p>A pizzaria La Nostra Casa está desde 2002, localizada na Av.General Londres, 778, <br>
+                        na cidade de São Paulo, na região da zona sul. Para mais informações nos siga em nossas redes
+                        sociais e para<br>
+                        qualquer dúvida <a href="suporte.html">Fale conosco</a> ou ligue para o nosso telefone.
+                    </p>
+                </li>
+
+                <li class="foot1">
+                    <p>Contato: <br> Telefone fixo: (11) 0000-0777 <br> Whatsapp: (11) 9 0000-0333</p>
+                    <p></p>
+                    <p></p>
+                </li>
+            </ul>
+            <div class="foot-icons">
+                <a href="#"><img src="../Pizzaria/images/facebook-logo.png"></a>
+                <a href="#"><img src="../Pizzaria/images/instagram-logo.png"></a>
+                <a href="#"><img src="../Pizzaria/images/whatsapp-logo.png"></a>
+            </div>
+    </footer>
 </body>
+
 </html>

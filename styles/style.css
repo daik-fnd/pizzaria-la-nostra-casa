@@ -51,9 +51,11 @@
 }
 /* Fim do padrão */
 
+/* Index.html */
+
 /* Main */
 
-#main-content{
+.main-content{
     background-color: rgb(0, 0, 0, 0.7);
     color: white;
     border-radius: 20px;
@@ -62,19 +64,17 @@
     flex-direction: column;
     align-items: center;
     flex: 1 1 0;
+    margin-bottom: 30px;
 }
 
-#main-title{
+.main-title{
     font-size: 50px;
+    color: rgb(156, 10, 10);
 }
 
 #text-content{
     margin-bottom: 50px;
     line-height: 25px;
-}
-
-#text-content h1{
-    color: rgb(156, 10, 10);
 }
 
 #text-content p{
@@ -94,7 +94,6 @@
 
 /* footer (rodapé) */
 #footer{
-    margin-top: 30px;
     background: rgb(0, 0, 0, 0.7);
     border-radius: 20px;
     margin-bottom: 20px;
@@ -117,4 +116,55 @@
     height: 50px;
     margin-left: 30px;
     margin-top: 20px;
+}
+
+/* cardapio.html */
+
+#picture-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+}
+
+.picture-div{
+    margin-left: 25px;
+    border-radius: 20px;
+
+}
+
+.cardapio-pics{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.cardapio-content{
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 20px;
+    /* display */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.pizza-options{
+    background: rgb(0, 0, 0, 0.7);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    /* display */
+    display: flex;
+    flex-direction: row;
+}
+
+.table{
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
 }
