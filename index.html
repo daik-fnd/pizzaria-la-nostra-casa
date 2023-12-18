@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Nostra Casa</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body id="container">
-
     <header id="fixed-header">
         <ul id="menu">
             <li><a href="index.html">Página inicial</a></li>
@@ -17,9 +17,13 @@
             <li><a href="lojas.html">O ambiente</a></li>
             <li><a href="delivery.html">Delivery</a></li>
             <li><a href="sobre.html">Sobre nós</a></li>
-            <li><a href="suporte.html">Nos conte a sua experiência! <br>(Fale conosco)</a></li>
+            <li><a href="suporte.html">Nos conte a sua experiência!</a></li>
         </ul>
     </header>
+
+    <button onclick="redirectBtn()" id="delivery-btn">
+        <p>Peça no nosso delivery!</p>
+    </button>
 
     <main class="main-content">
 

@@ -17,69 +17,203 @@
             <li><a href="lojas.html">O ambiente</a></li>
             <li><a href="delivery.html">Delivery</a></li>
             <li><a href="sobre.html">Sobre nós</a></li>
-            <li><a href="suporte.html">Nos conte a sua experiência! <br>(Fale conosco)</a></li>
+            <li><a href="suporte.html">Nos conte a sua experiência!</a></li>
         </ul>
     </header>
 
-    <main class="main-content">
-        <aside id="picture-container">
+    <button onclick="redirectDelivery()" id="delivery-btn">
+        <p>Peça no nosso delivery!</p>
+    </button>
 
-            <div class="picture-div">
-                <img src="../Pizzaria/images/pizza-pic.png" class="cardapio-pics">
-                <p>Temos diversos sabores de pizza</p>
-            </div>
+    <div class="main-content-cardapio">
 
-            <div class="picture-div">
-                <img src="../Pizzaria/images/esfiha.jpg" class="cardapio-pics">
-                <p>Esfihas doces e salgadas</p>
-            </div>
+        <h1>Confira o nosso cardápio</h1>
 
-            <div class="picture-div">
-                <img src="../Pizzaria/images/vinho-pic.png" class="cardapio-pics">
-                <p>Refrigerantes & Bebidas</p>
-            </div>
-
-        </aside>
-    </main>
-
-    <div id="cardapio-content">
-        <h2>Pizzas: </h2>
-        <div id="options-container">
-
-            <div class="options-div">
-                <p>2e2e2e</p>
-            </div>
-
-            <div class="options-div">
-                <p>2e2e2e</p>
-            </div>
-
-            <div class="options-div">
-                <p>2e2e2e</p>
-            </div>
-
+        <div class="cardapio-cards">
+            <h2>Pizzas & Esfihas</h2>
+            <table class="cardapio-table">
+                <tr>
+                    <th>Pizzas tradicionais</th>
+                    <th>Valor (R$)</th>
+                    <th>Pizzas doces</th>
+                    <th>Valor (R$)</th>
+                </tr>
+                <tr>
+                    <td>Marguerita</td>
+                    <td>R$ 65,90</td>
+                    <td>Chocolate com M&Ms</td>
+                    <td>R$ 79,90</td>
+                </tr>
+                <tr>
+                    <td>Lombo canadense</td>
+                    <td>R$ 65,90</td>
+                    <td>Nutella</td>
+                    <td>R$ 79,90</td>
+                </tr>
+                <tr>
+                    <td>Portuguesa</td>
+                    <td>R$ 65,90</td>
+                    <td>Chocolate com morango</td>
+                    <td>R$ 65,90</td>
+                </tr>
+                <tr>
+                    <td>Frango com catupiry</td>
+                    <td>R$ 65,90</td>
+                    <td>Prestígio</td>
+                    <td>R$ 65,90</td>
+                </tr>
+    
+                <tr>
+                    <td>Calabresa com queijo</td>
+                    <td>R$ 59, 90</td>
+                    <td>Chocolate com banana</td>
+                    <td>R$ 65,90</td>
+                </tr>
+                <tr>
+                    <td>Calabresa com catupiry</td>
+                    <td>R$ 59,90</td>
+                    <th colspan="2">Esfihas tradicionais</th>
+                </tr>
+                <tr>
+                    <td>Atum</td>
+                    <td>R$ 59,90</td>
+                    <td>Frango com catupiry</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Peperoni</td>
+                    <td>R$ 59,90</td>
+                    <td>Carne</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Frango com queijo</td>
+                    <td>R$ 59,90</td>
+                    <td>Mussarela</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Espinafre</td>
+                    <td>R$ 59,90</td>
+                    <td>Espinafre</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Escarola</td>
+                    <td>R$ 59,90</td>
+                    <td>Escarola</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Palmito</td>
+                    <td>R$ 59,90</td>
+                    <td>Palmito</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Brócolis</td>
+                    <td>R$ 59,90</td>
+                    <td>Brócolis</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Quatro queijos</td>
+                    <td>R$ 59,90</td>
+                    <td>Quatro queijos</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Calabresa</td>
+                    <td>R$ 44,90</td>
+                    <td>Calabresa</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Musssarela</td>
+                    <td>R$ 44,90</td>
+                    <td>Frango</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Esfihas doces</th>
+                    <td>Bacon</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Chocolate</td>
+                    <td>R$ 7,90</td>
+                    <td>Calabresa com queijo</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Brigadeiro</td>
+                    <td>R$ 7,90</td>
+                    <td>Atum</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Nutella</td>
+                    <td>R$ 11,90</td>
+                    <td>Calabresa com catupiry</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Chocolate com M&M's</td>
+                    <td>R$ 11,90</td>
+                    <td>Catupiry</td>
+                    <td>R$ 6,90</td>
+                </tr>
+            </table>
         </div>
     </div>
 
-    <div id="cardapio-content">
-        <h2>Pizzas: </h2>
-        <div id="options-container">
-
-            <div class="options-div">
-                <p>2e2e2e</p>
-            </div>
-
-            <div class="options-div">
-                <p>2e2e2e</p>
-            </div>
-
-            <div class="options-div">
-                <p>2e2e2e</p>
-            </div>
-
+    <div class="main-content-cardapio">
+        <h1>Refrigerantes e sucos</h1>
+        <div class="cardapio-cards">
+            <table class="cardapio-table">
+                <tr>
+                    <th>Refrigerantes, sucos e bebidas</th>
+                    <th>Valor (R$)</th>
+                </tr>
+                <tr>
+                    <td>Fanta, Guaraná Antártica ou Coca-Cola 2L</td>
+                    <td>R$ 17,90</td>
+                </tr>
+                <tr>
+                    <td>Coca-Cola ou Fanta 600ml</td>
+                    <td>R$ 10,90</td>
+                </tr>
+                <tr>
+                    <td>Lata de Coca-cola, Fanta ou Guaraná Antártica 350ml</td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Suco natural (laranja, maracujá, abacaxi) - 1L</td>
+                    <td>R$ 14,90</td>
+                </tr>
+                <tr>
+                    <td>Suco natural (laranja, maracujá, abacaxi) - Copo 400ml </td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <th>Vinhos e cervejas</th>
+                    <th>Valor (R$)</th>
+                </tr>
+                <tr>
+                    <td>Vinho do sul 750ml</td>
+                    <td>R$ 18,90</td>
+                </tr>
+                <tr>
+                    <td>Cerveja 1L</td>
+                    <td>R$ 14,90</td>
+                </tr>
+                <tr>
+                    <td>Cerveja 600ml</td>
+                    <td>R$ 6,90</td>
+                </tr>
+            </table>
         </div>
     </div>
-
 
     <footer id="footer">
         <div id="footer-container">
