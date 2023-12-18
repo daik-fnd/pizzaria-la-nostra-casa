@@ -7,7 +7,7 @@
 
 #container{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1400px;
     background-image:url('../images/nostra-background2.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -190,4 +190,34 @@
 
 .cardapio-pics{
     height: 400px;
+}
+
+/* sobre.html */
+#sobre-container{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-cards{
+    background-color: black;
+    width: 700px;
+    height: 500px;
+    margin: 50px 50px;
+    border-radius: 20px;
+
+   
+}
+
+.sobre-cards div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 70px;
+    line-height: 25px;
+    padding: 30px;
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
