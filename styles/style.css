@@ -79,7 +79,7 @@
 .main-content{
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     /* display */
     display: flex;
     flex-direction
@@ -148,9 +148,9 @@
 /* cardapio.html */
 
 .main-content-cardapio{
-    background-color: rgb(0, 0, 0, 0.9);
+    background: rgb(0, 0, 0, 0.9);
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     /* display */
     display: flex;
     flex-direction: column;
@@ -220,4 +220,55 @@
 
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* suporte.html */
+
+.form-container{
+    margin: 45px auto;
+    background: rgb(0, 0, 0, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#form-header{
+    background: rgb(156, 10, 10);
+    padding: 10px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+#form-header h1{
+    text-align: left;
+    margin-left: 90px;
+}
+
+#form label{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#form textarea{
+    resize: none;
+    height: 120px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.inpt{
+    margin-bottom: 5px;
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
 }

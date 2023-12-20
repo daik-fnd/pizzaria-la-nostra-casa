@@ -4,10 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale conosco - La Nostra Casa</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Suporte</h1>
-    <a href="index.html">Voltar para a página inicial</a>
-    <a href="cardapio.html">Cardápio</a>
+    <body id="container">
+        <header id="fixed-header">
+            <ul id="menu">
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="cardapio.html">Nosso cardápio</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="suporte.html">Nos conte a sua experiência!</a></li>
+            </ul>
+        </header>
+    
+        <button onclick="redirectBtn()" id="delivery-btn">
+            <p>Peça no nosso delivery!</p>
+        </button>
+    
+        <main class="form-container">
+            <div id="form-header">
+                <h1>Fale conosco</h1>
+            </div>
+            
+            <form id="form" class="form">
+                <label for="username" class="inpt">Seu nome completo: </label>
+                <input type="text" id="username" class="inpt">
+                <label for="email" class="inpt">Seu email: </label>
+                <input type="email" id="email" class="inpt">
+                <label class="inpt">Tipo de comentário: </label>
+                <select class="inpt">
+                    <option>Selecione</option>
+                    <option>Idéias e sugestões</option>
+                    <option>Opinião/Crítica</option>
+                    <option>Elogio</option>
+                    <option>Informação/Pergunta</option>
+                    <option>Parceria/Propaganda</option>
+                </select>
+                <label class="inpt">Escreva o seu comentário: </label>
+                <textarea placeholder="Ficaremos muito felizes em ler o seu comentário, é isso que nos ajuda a melhorar a cada dia."></textarea>
+            </form>
+           
+    
+        </main>
+    
+        <footer id="footer">
+            <div id="footer-container">
+                <ul>
+                    <li class="foot1">
+                        <h2>Agradecemos a preferência, volte sempre!</h2>
+                        <p>A pizzaria La Nostra Casa está desde 2002, localizada na Av.General Londres, 778, <br>
+                            na cidade de São Paulo, na região da zona sul. Para mais informações nos siga em nossas redes
+                            sociais e para<br>
+                            qualquer dúvida <a href="suporte.html">Fale conosco</a> ou ligue para o nosso telefone.
+                        </p>
+                    </li>
+    
+                    <li class="foot1">
+                        <p>Contato: <br> Telefone fixo: (11) 0000-0777 <br> Whatsapp: (11) 9 0000-0333</p>
+                        <p></p>
+                        <p></p>
+                    </li>
+                </ul>
+                <div class="foot-icons">
+                    <a href="#"><img src="../Pizzaria/images/facebook-logo.png"></a>
+                    <a href="#"><img src="../Pizzaria/images/instagram-logo.png"></a>
+                    <a href="#"><img src="../Pizzaria/images/whatsapp-logo.png"></a>
+            </div>
+        </footer>
+    </body>
 </body>
 </html>
