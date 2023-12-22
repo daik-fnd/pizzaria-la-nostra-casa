@@ -177,6 +177,48 @@
     margin-left: -25%;
 }
 
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid rgb(0, 195, 255);
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    bottom: 290px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+#radio1:checked ~ .navigation-auto .nav-btn1{
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .nav-btn2{
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .nav-btn3{
+    background-color: #fff;
+}
+
+#radio4:checked ~ .navigation-auto .nav-btn4{
+    background-color: #fff;
+}
+
 /* footer (rodapé) */
 #footer{
     background: rgb(0, 0, 0, 0.9);
