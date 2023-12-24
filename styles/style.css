@@ -57,6 +57,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    box-shadow: 1px 5px 5px rgb(0, 0, 0);
 }
 
 #menu{
@@ -86,6 +87,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 20px;
+    box-shadow: 1px 5px 5px black;
     /* display */
     display: flex;
     flex-direction: column;
@@ -250,7 +252,8 @@
 .main-content-cardapio{
     background: rgb(0, 0, 0, 0.9);
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 5px black;
     /* display */
     display: flex;
     flex-direction: column;
@@ -372,4 +375,18 @@
     width: 400px;
     height: 30px;
     border-radius: 15px;
+}
+
+#btn-enviar{
+    background-color: rgb(197, 10, 10);
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#btn-enviar:hover{
+    cursor: pointer;
 }
