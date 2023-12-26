@@ -34,7 +34,7 @@
                 <label for="email" class="inpt">Seu email: </label>
                 <input type="email" id="email" class="inpt" placeholder="Digite o seu o endereço de email">
                 <label class="inpt">Tipo de comentário: </label>
-                <select class="inpt">
+                <select class="inpt" id="select">
                     <option>Selecione</option>
                     <option>Idéias e sugestões</option>
                     <option>Opinião/Crítica</option>
@@ -42,10 +42,9 @@
                     <option>Informação/Pergunta</option>
                     <option>Parceria/Propaganda</option>
                 </select>
-                <label class="inpt">Escreva o seu comentário: </label>
-                <textarea placeholder="Ficaremos muito felizes em ler o seu comentário, é isso que nos ajuda a melhorar a cada dia."></textarea>
+                <label class="inpt" for="messageText">Escreva o seu comentário: </label>
+                <textarea id="messageText" placeholder="Ficaremos muito felizes em ler o seu comentário, é isso que nos ajuda a melhorar a cada dia."></textarea>
                 <input type="submit" value="OK" id="btn-enviar">
-                <small>Mensagem de erro</small>
                 
             </form>
            
