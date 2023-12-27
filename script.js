@@ -1,7 +1,8 @@
 let btn = document.querySelector("#delivery-btn");
 
 function redirectBtn() {
-    window.location = "delivery.html";
+    var win = window.open("https://wa.me/551140028922?text=Agradecemos+a+prefer%C3%AAncia%2C+como+podemos+te+ajudar%3F", target="_blank");
+    win.focus();
 }
 
 // Form
