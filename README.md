@@ -1,1 +1,1 @@
-Um site simples de uma pizzaria fictícia, criado com JavaScript, HTML e CSS, possui informações organizadas visando o fácil acesso para o cliente, além de opção de pedir pelo delivery e a possibilidade do cliente fazer comentários acerca da sua experiência.
+Um site com um simples de uma pizzaria fictícia criado com JavaScript, HTML e CSS, possui informações organizadas visando o fácil acesso para o cliente, além de um desing mais limpo visando a funcionalidade, possui opção de pedir pelo delivery e a possibilidade do cliente fazer comentários acerca da sua experiência.
