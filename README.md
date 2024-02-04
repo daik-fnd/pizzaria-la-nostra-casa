@@ -6,5 +6,5 @@ Um site com um visual simples de uma pizzaria fictícia criado com JavaScript, H
 
 <hr>
 
-**Você pode acessar o site no link a seguir:** <br>
+##Você pode acessar o site no link a seguir: <br>
 [Clique aqui!](https://daik-fnd.github.io/pizzaria-la-nostra-casa/index.html)
